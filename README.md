@@ -16,7 +16,7 @@ MultiByteTag.toHtml(sampleTxt, base);
 
 #### result
 ```html
-test A: <a href=\"example.com/?tag=35.115.116.97.110.100.97.114.100\" class=\"tagitem\">#standard</a><br>test B: #not#tag<br>test C: ###nottag # not tag<br>test D: <a href=\"example.com/?tag=35.171581\" class=\"tagitem\">#𩸽</a> surrogate pairs
+test A: <a href="example.com/?tag=35.115.116.97.110.100.97.114.100" class="tagitem">#standard</a><br>test B: #not#tag<br>test C: ###nottag # not tag<br>test D: <a href="example.com/?tag=35.171581" class="tagitem">#𩸽</a> surrogate pairs
 ```
 
 ### parse
